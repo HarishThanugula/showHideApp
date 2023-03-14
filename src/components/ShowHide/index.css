@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+}
+.btn {
+  padding: 8px;
+  background-color: white;
+  color: #fc63a7;
+  margin-right: 10px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 400;
+}
+.lastname-container {
+  background-color: white;
+  padding: 40px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-name {
+  font-weight: bold;
+  font-family: 'Roboto';
+}
